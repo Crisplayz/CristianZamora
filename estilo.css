@@ -1,0 +1,194 @@
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+	background: radial-gradient(circle,#fff,#bbb);
+    /*font-family: "Oswald", sans-serif;*/
+    font-size: 16px;
+}
+
+/*Aqui modificamos a cristian zamora el logo*/
+.logo{
+	width: 70%;
+	border-radius: 30px;
+
+}
+
+/*aqui modificamos el titulo*/
+header{
+	display: block;
+}
+
+.form{
+	text-align: center;
+
+}
+
+.titulo{
+	color: #f7f7f7;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 16px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #808080;
+    -webkit-box-shadow: inset 1px 1px 0 #fff;
+    -moz-box-shadow: inset 1px 1px 0 #fff;
+    box-shadow: inset 1px 1px 0 #fff;
+    padding: 17px 40px;
+    position: relative;
+}
+
+.titulo h1{
+	text-align: center;
+}
+
+/*hasta aqui*/
+
+
+.page-wrap{
+	margin-bottom: 40px;
+	box-shadow: 0 0 15px rgba(0,0,0,.07);
+	width: 1000%;
+}
+
+/*aqui va la clase principal*/
+.container{
+	font-family:"Oswald", sans-serif;
+    font-size: 18px;
+	padding-left: 40px;
+	display: inline-block;
+	width: 90%;
+}
+
+.container img{
+	width: 30%;
+
+}
+
+/*Aqui va la presentacion de mi trabajo*/
+.Presentacion{
+	background: #f7f7f7;
+	border:1px solid #000;
+	font-size: 23px;
+	display: inline-block;
+
+}
+
+
+.Presentacion b.portada{
+	border-radius: 20px;
+	background: #ccf;
+}
+
+.herramientas{
+	background: #f7f7f7;
+	border:1px solid #000;
+	font-size: 23px;
+	display: inline-block;
+
+}
+
+.herramientas b.portada{
+	border-radius: 30px;
+	 padding-bottom: 10px;
+	background: #ccf;
+}
+
+.mi-portafolio{
+	background: #f7f7f7;
+	border:1px solid #000;
+	font-size: 25px;
+	display: inline-block;
+	text-align: center;
+
+
+}
+.mi-portafolio b.portada{
+	border-radius: 30px;
+	padding-bottom: 10px;
+	background: #ccf;
+}
+
+.contactarme{
+	background: #f7f7f7;
+	border:1px solid #000;
+	font-size: 23px;
+	display: inline-block;
+
+}
+.contactarme b.portada{
+	border-radius: 30px;
+   padding-bottom: 10px;
+   background: #ccf;
+}
+
+.container-flex{
+	font-family:"Oswald", sans-serif;
+    font-size: 20px;
+	padding-left: 40px;
+	display: inline-block;
+	border: 3px solid #f7f7f7;
+	width: 40%;
+}
+
+.sidebar, .additional-sidebar {
+    width: 320px;
+    float: left;
+}
+
+.sidebar {
+    background: #f7f7f7;
+}
+
+
+.fab:hover{
+	border: 3px solid #00f;
+	width: 3%;
+	background: #00f;
+	color: #fff;
+}
+
+.far{
+	background: #FFD700;
+}
+
+.fas{
+color:#808080; 
+}
+
+.fas:hover{
+	color: #acf;
+}
+
+
+
+
+
+
+footer{
+     text-align: center;
+     background: #696969;
+     width: 100%;
+     font-size: 150%;
+     padding-bottom:30px;
+     color: #f7f7f7;
+}
+
+
+
+@media screen and (max-width: 700px){
+
+
+
+
+}
+
+
+@media screen and (max-width: 330px) {
+
+
+}
